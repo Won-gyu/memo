@@ -1,3 +1,9 @@
+By Linode
+
+systemd is a Linux initialization system and service manager.
+
+[source](https://www.linode.com/docs/quick-answers/linux-essentials/what-is-systemd/)
+
 By ZDNet
 
 Systemd provides a standard process for controlling what programs run when a Linux system boots up. While systemd is compatible with SysV and Linux Standard Base (LSB) init scripts, systemd is meant to be a drop-in replacement for these older ways of getting a Linux system running.
