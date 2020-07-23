@@ -10,4 +10,9 @@ List images
 $ docker images
 ```
 
+Fetch the logs of container
+```bash
+$ docker logs [OPTIONS] CONTAINER
+```
+
 [source](https://docs.docker.com/engine/reference/commandline/docker/)
