@@ -15,4 +15,9 @@ Fetch the logs of container
 $ docker logs [OPTIONS] CONTAINER
 ```
 
+Stops running containers without removing them. They can be started again with docker-compose start
+```bash
+$ docker-compose stop
+```
+
 [source](https://docs.docker.com/engine/reference/commandline/docker/)
