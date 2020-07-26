@@ -20,4 +20,9 @@ Stops running containers without removing them. They can be started again with d
 $ docker-compose stop
 ```
 
+Restarts all stopped and running services.
+```bash
+$ docker-compose restart
+```
+
 [source](https://docs.docker.com/engine/reference/commandline/docker/)
