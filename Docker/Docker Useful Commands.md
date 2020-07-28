@@ -10,3 +10,8 @@ $ docker exec -it <container> bash
 ```
 
 [source](https://devconnected.com/docker-exec-command-with-examples/)
+
+To copy a file into a docker container.
+```bash
+docker cp script.sh jenkins:/tmp/script.sh
+```
