@@ -2,6 +2,18 @@ By Kojiro
 
 $1, $2, $3, ... are the positional parameters.
 
+```bash
+NAME=Tom
+LASTNAME=Smith
+/tmp/script.sh $NAME $LASTNAME
+```
+
+```bash
+NAME=$1
+LASTNAME=$2
+echo "Hello, $NAME $LASTNAME"
+```
+
 "$@" is an array-like construct of all positional parameters, {$1, $2, $3 ...}.
 
 "$*" is the IFS expansion of all positional parameters, $1 $2 $3 ....
