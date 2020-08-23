@@ -7,3 +7,5 @@ https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-
 https://programming.vip/docs/source-code-interpretation-of-react-useeffect.html
 
 http://www.yes24.com/Product/goods/33036991
+
+https://forum.unity.com/threads/difference-between-alphatest-and-transparent-renderqueue.458750/
