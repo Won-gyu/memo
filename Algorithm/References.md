@@ -7,3 +7,5 @@ Technical Interview Workshop by Keep On Coding: https://youtu.be/VkJN3-Hs9zA
 4. Dynamic Programming
 
 BST Successor Search by Keep On Coding: https://youtu.be/jma9hFQSCDk
+
+all algrotihms: https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O
