@@ -1,5 +1,3 @@
-
-
 By bgolus
 
 Basic rendering:
