@@ -110,3 +110,39 @@ void main()
 }
 ```
 ------------------------------
+9. Per-Sample Operations
+ - Series of tests run to see if the fragment should be drawn.
+ - Most important test: Depth test. Determines if something is in front of the point being drawn.
+ - Color Blending: Using defined operations, fragment colors are "blended" together with overlapping fragments. Usually used to handle transparent objects.
+ - Fragment data written to currently bound Framebuffer (usually the default buffer).
+ - Lastly, in the application code the user usually defines a buffer swap here, putting the newly updated Framebuffer to the front.
+ - The pipeline is complete!
+------------------------------
+On the Origin of Shaders...
+ - Shaders Programs are a group of shaders (Vertex, Tessellation, Geometry, Fragment...) associated with one another.
+ - They are created in OpenGL via a series of functions.
+------------------------------
+Creating a Shader Program
+ 1. Create empty Program.
+ 2. Create empty Shaders.
+ 3. Attach shader source code to shaders.
+ 4. compile shaders.
+ 5. Attach shaders to program.
+ 6. Link program (creates executables from shaders and links them together)
+ 7. Validate program (optional but highly advised because debugging shaders is a pain)
+------------------------------
+Using a Shader Program
+ 1. When you create a shader, an ID is given (like with VAOs and VBOs)
+ 2. Simply call glUseProgram(ShaderID)
+ 3. All draw calls from then on will use that shader, glUseProgram is used on a new ShaderID, or on'0'(meaning 'no shader').
+------------------------------
+Summary
+ - Rendering Pipeline consists of several stages.
+ - Four stages are programmable via shaders (Vertex, Tessellation, Geometry, Fragment).
+ - Vertex Shader is Mandatory.
+ - Vertices: User-defined points in space.
+ - Primitives: Groups of vertices that make a simple shape(usually a triangle).
+ - Fragments: Per-pixel data created from primitives.
+ - Vertex Array Object (VAO): WHAT data a vertex has.
+ - Vertex Buffer Object (VBO): The vertex data itself.
+ - Shader programs are created with at least a Vertex Shader and then activated before use.
