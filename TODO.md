@@ -11,3 +11,6 @@ http://www.yes24.com/Product/goods/33036991
 https://forum.unity.com/threads/difference-between-alphatest-and-transparent-renderqueue.458750/
 
 https://catlikecoding.com/unity/tutorials/basics/compute-shaders/?fbclid=IwAR16629UXpDlFjqE2maeOIdvz621TZXfCVHtXNO9Ah2JBNX9iGva8s7LAgc
+
+Snowtracks Shader: https://youtu.be/Sr2KoaKN3mU
+Bloom shader: https://catlikecoding.com/unity/tutorials/advanced-rendering/bloom/
