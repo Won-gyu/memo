@@ -8,4 +8,4 @@ For this reason, it is sometimes called partition-exchange sort. The sub-arrays 
 
 https://www.youtube.com/watch?v=uXBnyYuwPe8
 
-https://www.youtube.com/watch?v=7BDzle2n47c&t=21s
+https://www.youtube.com/watch?v=cWH49IKDIiI
